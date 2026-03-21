@@ -1,0 +1,58 @@
+[
+  { "name": "Port of Colombo", "lat": 6.9497, "lng": 79.8428 },
+  { "name": "Port of Hambantota", "lat": 6.1240, "lng": 81.1180 },
+  { "name": "Port of Chennai", "lat": 13.0827, "lng": 80.2707 },
+  { "name": "Port of Mumbai", "lat": 18.9498, "lng": 72.8355 },
+  { "name": "Port of Kochi", "lat": 9.9312, "lng": 76.2673 },
+  { "name": "Port of Visakhapatnam", "lat": 17.6868, "lng": 83.2185 },
+  { "name": "Port of Kolkata", "lat": 22.5726, "lng": 88.3639 },
+  { "name": "Port of Karachi", "lat": 24.8607, "lng": 67.0011 },
+  { "name": "Port of Chittagong", "lat": 22.3384, "lng": 91.8325 },
+
+  { "name": "Port of Singapore", "lat": 1.2644, "lng": 103.8200 },
+  { "name": "Port Klang", "lat": 3.0012, "lng": 101.3650 },
+  { "name": "Tanjung Priok", "lat": -6.1177, "lng": 106.8705 },
+  { "name": "Port of Surabaya", "lat": -7.2492, "lng": 112.7508 },
+  { "name": "Manila Port", "lat": 14.5833, "lng": 120.9667 },
+  { "name": "Laem Chabang Port", "lat": 13.0453, "lng": 100.9095 },
+  { "name": "Hai Phong Port", "lat": 20.8449, "lng": 106.6881 },
+  { "name": "Port of Yangon", "lat": 16.8209, "lng": 96.1536 },
+
+  { "name": "Port of Shanghai", "lat": 31.2304, "lng": 121.4737 },
+  { "name": "Port of Shenzhen", "lat": 22.5431, "lng": 114.0579 },
+  { "name": "Port of Guangzhou", "lat": 23.1291, "lng": 113.2644 },
+  { "name": "Port of Qingdao", "lat": 36.0671, "lng": 120.3826 },
+  { "name": "Port of Busan", "lat": 35.1796, "lng": 129.0756 },
+  { "name": "Port of Yokohama", "lat": 35.4437, "lng": 139.6380 },
+  { "name": "Port of Tokyo", "lat": 35.6762, "lng": 139.6503 },
+
+  { "name": "Port of Jebel Ali", "lat": 25.0657, "lng": 55.1342 },
+  { "name": "Port of Salalah", "lat": 17.0210, "lng": 54.0920 },
+  { "name": "Port of Bandar Abbas", "lat": 27.1967, "lng": 56.2825 },
+  { "name": "Port of Aqaba", "lat": 29.5328, "lng": 35.0060 },
+
+  { "name": "Port of Los Angeles", "lat": 33.7405, "lng": -118.2756 },
+  { "name": "Port of Long Beach", "lat": 33.7542, "lng": -118.2167 },
+  { "name": "Port of New York & New Jersey", "lat": 40.6681, "lng": -74.0451 },
+  { "name": "Port of Houston", "lat": 29.7361, "lng": -95.2700 },
+  { "name": "Port of Savannah", "lat": 32.0809, "lng": -81.0912 },
+  { "name": "Port of Seattle", "lat": 47.6019, "lng": -122.3345 },
+  { "name": "Port of Vancouver", "lat": 49.2860, "lng": -123.1200 },
+
+  { "name": "Port of Santos", "lat": -23.9675, "lng": -46.3336 },
+  { "name": "Port of Rio de Janeiro", "lat": -22.9035, "lng": -43.2096 },
+  { "name": "Port of Buenos Aires", "lat": -34.6037, "lng": -58.3816 },
+  { "name": "Port of Valparaiso", "lat": -33.0472, "lng": -71.6127 },
+  { "name": "Port of Callao", "lat": -12.0561, "lng": -77.1390 },
+
+  { "name": "Port of Rotterdam", "lat": 51.9400, "lng": 4.1380 },
+  { "name": "Port of Antwerp", "lat": 51.2194, "lng": 4.4025 },
+  { "name": "Port of Hamburg", "lat": 53.5461, "lng": 9.9661 },
+  { "name": "Port of Barcelona", "lat": 41.3851, "lng": 2.1734 },
+  { "name": "Port of Genoa", "lat": 44.4056, "lng": 8.9463 },
+  { "name": "Port of Piraeus", "lat": 37.9421, "lng": 23.6460 },
+  { "name": "Port of Lisbon", "lat": 38.7223, "lng": -9.1393 },
+  { "name": "Port of Istanbul", "lat": 41.0082, "lng": 28.9784 },
+  { "name": "Port of Constanta", "lat": 44.1598, "lng": 28.6348 }
+]
+

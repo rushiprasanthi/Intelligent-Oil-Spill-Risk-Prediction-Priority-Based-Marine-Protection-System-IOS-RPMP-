@@ -1,0 +1,16 @@
+# Simulation configuration
+grid:
+  cell_size_km: 2.0
+  grid_radius_km: 50
+
+time:
+  timestep_hours: 1
+  max_hours: 12
+
+environment:
+  default_wind_speed_kmh: 30
+  default_wind_direction_deg: 60
+
+diffusion:
+  base_diffusion_rate: 0.15
+  wind_influence_factor: 0.4

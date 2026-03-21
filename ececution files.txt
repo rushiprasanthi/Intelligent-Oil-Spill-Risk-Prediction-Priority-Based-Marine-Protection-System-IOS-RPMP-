@@ -1,0 +1,11 @@
+front end  :
+python -m http.server 5500
+backend:
+uvicorn backend.main:app 
+broswer : *http://127.0.0.1:5500/*
+
+
+
+
+
+see onace analysis my output here when i click left click  it ask for okay  to split then i click okay split button that shows a red mark where i click right button on the map i want these process  to add my project your task : you prompt generative   for vs code copolit for given required updates that prompt must be no confusions and vs codepolit must be 100 % understand and done this upgrades donot write blindly once check all 

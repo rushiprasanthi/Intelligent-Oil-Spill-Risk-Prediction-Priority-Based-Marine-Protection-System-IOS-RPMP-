@@ -1,0 +1,101 @@
+ID,Port Name,Country,Latitude,Longitude
+1,Port of Shanghai,China,31.2304,121.4737
+2,Port of Singapore,Singapore,1.2644,103.8200
+3,Port of Rotterdam,Netherlands,51.9400,4.1380
+4,Port of Ningbo-Zhoushan,China,29.8683,121.5440
+5,Port of Shenzhen,China,22.5431,114.0579
+6,Port of Guangzhou,China,23.1291,113.2644
+7,Port of Busan,South Korea,35.1796,129.0756
+8,Port of Hong Kong,Hong Kong,22.3193,114.1694
+9,Port of Qingdao,China,36.0671,120.3826
+10,Port of Tianjin,China,39.3434,117.3616
+11,Port of Los Angeles,USA,33.7405,-118.2756
+12,Port of Long Beach,USA,33.7542,-118.2167
+13,Port of New York & New Jersey,USA,40.6681,-74.0451
+14,Port of Houston,USA,29.7361,-95.2700
+15,Port of Savannah,USA,32.0809,-81.0912
+16,Port of Seattle,USA,47.6019,-122.3345
+17,Port of Vancouver,Canada,49.2860,-123.1200
+18,Port of Montreal,Canada,45.5017,-73.5673
+19,Port of Santos,Brazil,-23.9675,-46.3336
+20,Port of Buenos Aires,Argentina,-34.6037,-58.3816
+21,Port of Antwerp,Belgium,51.2194,4.4025
+22,Port of Hamburg,Germany,53.5461,9.9661
+23,Port of Valencia,Spain,39.4699,-0.3763
+24,Port of Barcelona,Spain,41.3851,2.1734
+25,Port of Genoa,Italy,44.4056,8.9463
+26,Port of Marseille,France,43.2965,5.3698
+27,Port of Piraeus,Greece,37.9421,23.6460
+28,Port of Lisbon,Portugal,38.7223,-9.1393
+29,Port of Istanbul,Turkey,41.0082,28.9784
+30,Port of Constanta,Romania,44.1598,28.6348
+31,Port of Colombo,Sri Lanka,6.9497,79.8428
+32,Port of Hambantota,Sri Lanka,6.1240,81.1180
+33,Port of Mumbai,India,18.9498,72.8355
+34,Port of Chennai,India,13.0827,80.2707
+35,Port of Kochi,India,9.9312,76.2673
+36,Port of Visakhapatnam,India,17.6868,83.2185
+37,Port of Kolkata,India,22.5726,88.3639
+38,Port of Chittagong,Bangladesh,22.3384,91.8325
+39,Port of Karachi,Pakistan,24.8607,67.0011
+40,Port of Gwadar,Pakistan,25.1264,62.3225
+41,Port of Jebel Ali,UAE,25.0657,55.1342
+42,Port of Salalah,Oman,17.0210,54.0920
+43,Port of Bandar Abbas,Iran,27.1967,56.2825
+44,Port of Aqaba,Jordan,29.5328,35.0060
+45,Port of Haifa,Israel,32.7940,34.9896
+46,Port of Alexandria,Egypt,31.2001,29.9187
+47,Port of Durban,South Africa,-29.8587,31.0218
+48,Port of Cape Town,South Africa,-33.9249,18.4241
+49,Port of Mombasa,Kenya,-4.0435,39.6682
+50,Port of Lagos,Nigeria,6.5244,3.3792
+51,Port of Tanjung Priok,Indonesia,-6.1177,106.8705
+52,Port of Surabaya,Indonesia,-7.2492,112.7508
+53,Port of Manila,Philippines,14.5833,120.9667
+54,Port of Laem Chabang,Thailand,13.0453,100.9095
+55,Port of Hai Phong,Vietnam,20.8449,106.6881
+56,Port of Yangon,Myanmar,16.8209,96.1536
+57,Port of Tokyo,Japan,35.6762,139.6503
+58,Port of Yokohama,Japan,35.4437,139.6380
+59,Port of Kaohsiung,Taiwan,22.6273,120.3014
+60,Port of Colombo East,Sri Lanka,6.9600,79.8500
+61,Port of Felixstowe,UK,51.9544,1.3510
+62,Port of London,UK,51.5074,-0.1278
+63,Port of Le Havre,France,49.4944,0.1079
+64,Port of Bremerhaven,Germany,53.5396,8.5809
+65,Port of Gothenburg,Sweden,57.7089,11.9746
+66,Port of Oslo,Norway,59.9139,10.7522
+67,Port of Dublin,Ireland,53.3498,-6.2603
+68,Port of Tallinn,Estonia,59.4370,24.7536
+69,Port of Gdansk,Poland,54.3520,18.6466
+70,Port of Trieste,Italy,45.6495,13.7768
+71,Port of Valparaiso,Chile,-33.0472,-71.6127
+72,Port of Callao,Peru,-12.0561,-77.1390
+73,Port of Guayaquil,Ecuador,-2.1700,-79.9224
+74,Port of Cartagena,Colombia,10.3910,-75.4794
+75,Port of Kingston,Jamaica,17.9712,-76.7936
+76,Port of Veracruz,Mexico,19.1738,-96.1342
+77,Port of Panama,Panama,8.9824,-79.5199
+78,Port of Auckland,New Zealand,-36.8485,174.7633
+79,Port of Sydney,Australia,-33.8688,151.2093
+80,Port of Melbourne,Australia,-37.8136,144.9631
+81,Port of Brisbane,Australia,-27.4698,153.0251
+82,Port of Fremantle,Australia,-32.0569,115.7439
+83,Port of Vladivostok,Russia,43.1155,131.8855
+84,Port of Murmansk,Russia,68.9585,33.0827
+85,Port of Odessa,Ukraine,46.4825,30.7233
+86,Port of Riga,Latvia,56.9496,24.1052
+87,Port of Klaipeda,Lithuania,55.7033,21.1443
+88,Port of Split,Croatia,43.5081,16.4402
+89,Port of Thessaloniki,Greece,40.6401,22.9444
+90,Port of Casablanca,Morocco,33.5731,-7.5898
+91,Port of Dakar,Senegal,14.7167,-17.4677
+92,Port of Abidjan,Ivory Coast,5.3600,-4.0083
+93,Port of Dar es Salaam,Tanzania,-6.7924,39.2083
+94,Port of Maputo,Mozambique,-25.9692,32.5732
+95,Port of Muscat,Oman,23.5880,58.3829
+96,Port of Doha,Qatar,25.2854,51.5310
+97,Port of Kuwait,Kuwait,29.3759,47.9774
+98,Port of Basra,Iraq,30.5085,47.7835
+99,Port of Bushehr,Iran,28.9234,50.8203
+100,Port of Kandla,India,23.0330,70.2167

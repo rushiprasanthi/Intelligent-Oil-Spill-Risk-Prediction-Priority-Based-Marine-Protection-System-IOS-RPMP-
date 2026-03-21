@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0e1a24;
+  color: #e0e0e0;
+}
+
+#top-bar {
+  background: #122533;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+
+#container {
+  display: flex;
+  height: calc(100vh - 50px);
+}
+
+#map {
+  flex: 2;
+}
+
+#dashboard {
+  flex: 1;
+  padding: 15px;
+  overflow-y: auto;
+  background: #162b3c;
+}
+
+h2 {
+  margin-top: 20px;
+  font-size: 16px;
+  border-bottom: 1px solid #2d4b63;
+  padding-bottom: 5px;
+}
+
+.section {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.section.small {
+  font-size: 12px;
+  opacity: 0.85;
+}
+
+/* Hotspot pulsing marker */
+.hotspot-pulse {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: rgba(255, 0, 0, 0.9);
+  box-shadow: 0 0 8px rgba(255, 0, 0, 0.7);
+  animation: hotspot-pulse 1s ease-out infinite;
+}
+
+@keyframes hotspot-pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  70% {
+    transform: scale(1.8);
+    opacity: 0.4;
+  }
+  100% {
+    transform: scale(2.2);
+    opacity: 0;
+  }
+}
+
+.hotspot-marker {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  text-align: center;
+  line-height: 14px;
+}

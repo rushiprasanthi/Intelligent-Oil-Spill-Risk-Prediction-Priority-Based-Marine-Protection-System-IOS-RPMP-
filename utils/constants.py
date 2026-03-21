@@ -1,0 +1,11 @@
+# Global constants used across system
+
+DEFAULT_SHIP_SPEED_KMH = 30
+
+MAX_RISK_SCORE = 10.0
+
+EXPOSURE_MIN = 0.0
+EXPOSURE_MAX = 1.0
+
+WIND_MIN = 0
+WIND_MAX = 40

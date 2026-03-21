@@ -1,0 +1,24 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Coral Reef Zone A",
+        "sensitivity": 9
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [79.5, 7.5],
+            [80.2, 7.5],
+            [80.2, 8.2],
+            [79.5, 8.2],
+            [79.5, 7.5]
+          ]
+        ]
+      }
+    }
+  ]
+}

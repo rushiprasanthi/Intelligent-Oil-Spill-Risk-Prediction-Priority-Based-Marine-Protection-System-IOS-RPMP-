@@ -1,0 +1,14 @@
+{
+  "default": {
+    "speed_kmh": 18,
+    "direction_deg": 45
+  },
+  "low": {
+    "speed_kmh": 8,
+    "direction_deg": 90
+  },
+  "high": {
+    "speed_kmh": 35,
+    "direction_deg": 270
+  }
+}

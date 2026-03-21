@@ -1,0 +1,14 @@
+# Priority classification thresholds
+
+priority_levels:
+  P1:
+    min_risk: 4.0
+    label: "P1 - Immediate Protection"
+
+  P2:
+    min_risk: 1.5
+    label: "P2 - Secondary Defense"
+
+  P3:
+    min_risk: 0.0
+    label: "P3 - Monitoring"

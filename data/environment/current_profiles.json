@@ -1,0 +1,10 @@
+{
+  "default": {
+    "speed_kmh": 2.5,
+    "direction_deg": 60
+  },
+  "strong": {
+    "speed_kmh": 5.0,
+    "direction_deg": 120
+  }
+}

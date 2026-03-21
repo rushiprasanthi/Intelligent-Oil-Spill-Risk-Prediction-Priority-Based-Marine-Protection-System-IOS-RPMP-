@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>IOS-RPMP Dashboard</title>
+
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div id="top-bar">
+    <span id="system-title">IOS-RPMP — Oil Spill Response</span>
+    <span id="system-status">Idle</span>
+    <span id="priority-banner">–</span>
+  </div>
+
+  <div id="container">
+    <div id="map"></div>
+
+    <div id="dashboard">
+
+      <h2>🚢 DEPLOYMENT PLAN</h2>
+      <div class="section">
+  <p><b>Nearest Port:</b> <span id="port">–</span></p>
+  <p><b>Distance:</b> <span id="distance">–</span> km</p>
+  <p><b>ETA:</b> <span id="eta">–</span> hrs</p>
+  <p><b>Ships Required:</b> <span id="ships">–</span></p>
+  <p><b>Containment Direction:</b> <span id="direction">–</span>°</p>
+  <p><b>Deployment Priority:</b> <span id="priority-text">–</span></p>
+      </div>
+
+      <h2>🧠 AI SEVERITY ASSESSMENT</h2>
+      <div class="section">
+        <p><b>Predicted Severity:</b> <span id="aiSeverityText">–</span></p>
+      </div>
+
+      <h2>🌍 DAMAGE PROJECTION</h2>
+      <div class="section">
+        <p><b>Ecosystem Impact:</b> <span id="eco-impact">–</span>%</p>
+        <p><b>Damage Controlled:</b> <span id="damage-control">–</span>%</p>
+        <p><b>Economic Loss:</b> $<span id="economic-loss">–</span>M</p>
+        <p><b>Fishery Area:</b> <span id="fishery">–</span> sq km</p>
+      </div>
+
+      <h2>📧 ALERT STATUS</h2>
+      <div class="section">
+        <p id="email-status">–</p>
+        <p id="warning-text">–</p>
+      </div>
+
+      <h2>⚙ SYSTEM INFO</h2>
+      <div class="section small">
+        <p>Simulation Engine: 2D Grid Diffusion</p>
+        <p>Grid Resolution: 30 × 30</p>
+        <p>Update Interval: 600 ms</p>
+        <p>Version: IOS-RPMP v1.0</p>
+      </div>
+
+      <h2>🧠 DECISION EXPLANATION</h2>
+      <div class="section">
+        <p id="explanation">–</p>
+      </div>
+
+      <h2>🔥 GLOBAL HOTSPOT MONITOR</h2>
+      <div class="section" id="hotspots-section">
+        <div id="hotspots-summary">Zones Within 5000 km: <span id="zones-count">0</span> — Active Hotspots: <span id="hotspots-count">0</span></div>
+        <div id="hotspots-list">No active hotspot zones.</div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="map/map_init.js"></script>
+  <script src="app.js"></script>
+  <script src="map/context_menu.js"></script>
+  <script src="map/overlays.js"></script>
+  <script src="ui/dashboard.js"></script>
+</body>
+</html>

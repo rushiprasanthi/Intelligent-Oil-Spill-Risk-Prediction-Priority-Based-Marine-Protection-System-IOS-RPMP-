@@ -1,0 +1,23 @@
+[
+  {
+    "id": "demo_spill_01",
+    "lat": 7.0,
+    "lng": 80.0,
+    "spill_size": 0.7,
+    "description": "Medium tanker leak near coral reef"
+  },
+  {
+    "id": "demo_spill_02",
+    "lat": 6.3,
+    "lng": 80.4,
+    "spill_size": 0.4,
+    "description": "Small spill near mangrove coast"
+  },
+  {
+    "id": "demo_spill_03",
+    "lat": 7.4,
+    "lng": 81.2,
+    "spill_size": 0.9,
+    "description": "Major spill near protected marine zone"
+  }
+]

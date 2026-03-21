@@ -1,0 +1,9 @@
+# Risk model weights (NO AI)
+base_hazard:
+  spill_size_weight: 1.0
+  wind_weight: 0.1
+
+zone_risk:
+  sensitivity_weight: 1.0
+  exposure_weight: 1.0
+  time_decay_weight: 1.0
