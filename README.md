@@ -24,7 +24,7 @@ Unlike traditional reactive cleanup systems, IOS-RPMP focuses on:
 
 > **Predicting environmental impact before ecological damage escalates.**
 
-Based on the documented IOS-RPMP implementation and architecture specification.  
+Based on the documented IOS-RPMP implementation and architecture specification. 
 
 ---
 
@@ -46,9 +46,9 @@ Most existing systems respond only after oil reaches environmentally sensitive r
 This delay causes:
 
 * irreversible ecosystem damage
-* delayed containment
-* poor response prioritization
-* inefficient deployment logistics
+* delayed containment response
+* poor deployment prioritization
+* inefficient logistics allocation
 
 ---
 
@@ -56,7 +56,7 @@ This delay causes:
 
 IOS-RPMP transforms marine spill response into:
 
-```text id="0zy2iu"
+```text id="r5i6w7"
 Reactive Cleanup
         ↓
 Predictive Intelligence
@@ -67,10 +67,11 @@ Priority-Based Marine Protection
 The system predicts:
 
 * spill spread direction
-* ecological exposure probability
-* threat severity
+* exposure probability
+* ecological threat severity
 * response urgency
-* containment deployment strategy
+* containment strategy
+* operational deployment planning
 
 ---
 
@@ -85,7 +86,7 @@ Built using:
 * Leaflet.js
 * OpenStreetMap
 
-Features:
+### Features
 
 * Real geographic coordinates
 * Zoomable Earth visualization
@@ -106,19 +107,19 @@ The simulation engine uses:
 
 ### Simulation Model
 
-```text id="y1eq0z"
+```text id="g1h2i3"
 Diffusion + Directional Advection
 ```
 
-This enables:
+### Capabilities
 
 * real-time execution
 * directional spill movement
-* lightweight computation
 * animated spread visualization
+* lightweight computation
 * laptop-level performance
 
-The simulation is intentionally:
+The model is intentionally:
 
 * explainable
 * computationally feasible
@@ -138,7 +139,7 @@ Spill propagation dynamically changes based on:
 * directional vectors
 * spread velocity
 
-Directional drift creates realistic spill movement patterns.
+Directional drift creates realistic spill movement patterns across the ocean surface.
 
 ---
 
@@ -193,7 +194,7 @@ The deployment intelligence module calculates:
 
 * nearest response port
 * deployment distance
-* estimated travel time
+* estimated arrival time
 * recommended ship allocation
 
 ### Rule-Based Allocation
@@ -257,7 +258,7 @@ Potential models:
 
 # 🧱 System Architecture
 
-```text id="r0p4qx"
+```text id="z9x8c7"
 User Interaction Layer
         ↓
 Spill Event Trigger
@@ -295,17 +296,17 @@ Architecture derived from IOS-RPMP implementation documentation.
 
 ---
 
-# 🖱️ Updated Interaction Workflow
+# 🖱️ Updated Frontend Interaction Workflow
 
 The frontend interaction system uses:
 
 * Leaflet.js right-click events
-* custom context menu interaction
+* custom context-menu interaction
 * real-world spill coordinate placement
 
 ### Workflow
 
-```text id="jv5z0o"
+```text id="f6d5s4"
 RIGHT CLICK ON MAP
         ↓
 Custom Context Menu Appears
@@ -319,7 +320,7 @@ Simulation Pipeline Starts
 Risk + Deployment + Dashboard Updates
 ```
 
-This interaction replaces the old left-click confirmation flow. 
+This upgraded interaction replaces the old left-click confirmation flow. 
 
 ---
 
@@ -356,7 +357,7 @@ This interaction replaces the old left-click confirmation flow.
 
 # 📂 Recommended Project Structure
 
-```text id="6o8j5u"
+```text id="q1w2e3"
 IOS-RPMP/
 │
 ├── backend/
@@ -383,38 +384,92 @@ IOS-RPMP/
 
 ---
 
-# ⚙️ VS Code Execution Setup
+# ⚙️ Local Execution Setup
 
 ---
 
 # ▶️ Frontend Execution
 
-Run frontend server:
+Navigate to the frontend folder and run:
 
-```bash id="plsnz4"
+```bash id="frontendcmd01"
 python -m http.server 5500
 ```
 
-Frontend URL:
+### Frontend URL
 
-```text id="l7lj4x"
+```text id="frontendurl01"
 http://127.0.0.1:5500
+```
+
+### Frontend Entry File
+
+```text id="frontendfile01"
+frontend/index.html
+```
+
+### Main Frontend Files
+
+```text id="frontendfiles02"
+frontend/
+├── index.html
+├── style.css
+├── script.js
+└── assets/
 ```
 
 ---
 
 # ▶️ Backend Execution
 
-Run FastAPI backend:
+Run the FastAPI backend server:
 
-```bash id="18o5x9"
+```bash id="backendcmd01"
 uvicorn backend.main:app --reload
 ```
 
-Backend API:
+### Backend API URL
 
-```text id="v4z4jv"
+```text id="backendurl01"
 http://127.0.0.1:8000
+```
+
+### Main Backend Entry File
+
+```text id="backendfile01"
+backend/main.py
+```
+
+---
+
+# ▶️ Full Local Startup Workflow
+
+## Step 1 — Start Backend
+
+Open terminal 1:
+
+```bash id="fullrun01"
+uvicorn backend.main:app --reload
+```
+
+---
+
+## Step 2 — Start Frontend
+
+Open terminal 2:
+
+```bash id="fullrun02"
+python -m http.server 5500
+```
+
+---
+
+## Step 3 — Open Browser
+
+Open:
+
+```text id="fullrun03"
+http://127.0.0.1:5500/frontend/
 ```
 
 ---
@@ -423,13 +478,13 @@ http://127.0.0.1:8000
 
 Create:
 
-```text id="jlwm2j"
+```text id="launchfile01"
 .vscode/launch.json
 ```
 
 Add:
 
-```json id="ntpjlwm"
+```json id="launchjson01"
 {
   "version": "0.2.0",
   "configurations": [
@@ -470,7 +525,7 @@ IOS-RPMP is optimized for lightweight deployment and can run on Raspberry Pi 4.
 
 ## Install Dependencies
 
-```bash id="4g7plk"
+```bash id="rpi01"
 sudo apt update
 sudo apt install python3-pip git
 ```
@@ -479,7 +534,7 @@ sudo apt install python3-pip git
 
 ## Clone Repository
 
-```bash id="v2o69u"
+```bash id="rpi02"
 git clone https://github.com/your-repo/IOS-RPMP.git
 cd IOS-RPMP
 ```
@@ -488,7 +543,7 @@ cd IOS-RPMP
 
 ## Install Backend Packages
 
-```bash id="clhjq2"
+```bash id="rpi03"
 pip3 install -r backend/requirements.txt
 ```
 
@@ -496,7 +551,7 @@ pip3 install -r backend/requirements.txt
 
 ## Run Backend
 
-```bash id="wy9m1n"
+```bash id="rpi04"
 uvicorn backend.main:app --host 0.0.0.0 --port 8000
 ```
 
@@ -504,7 +559,7 @@ uvicorn backend.main:app --host 0.0.0.0 --port 8000
 
 ## Access From Browser
 
-```text id="ij03i0"
+```text id="rpi05"
 http://<RASPBERRY_PI_IP>:8000
 ```
 
@@ -516,7 +571,7 @@ http://<RASPBERRY_PI_IP>:8000
 
 ### Example Response
 
-```json id="xmq1b0"
+```json id="apiresponse01"
 {
   "spill": {...},
   "environment": {...},
