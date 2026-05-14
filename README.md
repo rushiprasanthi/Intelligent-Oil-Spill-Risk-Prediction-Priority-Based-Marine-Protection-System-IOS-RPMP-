@@ -2,32 +2,6 @@
 # 🌊 IOS-RPMP
 **Intelligent Oil-Spill Risk Prediction & Priority-Based Marine Protection System**
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](#license) [![Python](https://img.shields.io/badge/Python-3.11+-blue)](#technical-stack) [![FastAPI](https://img.shields.io/badge/FastAPI-production-ready-green)](#technical-stack)
-
-Predict. Prioritize. Protect.
-
----
-
-Table of Contents
-- [Project Overview](#project-overview)
-- [Core Features](#core-features)
-- [System Architecture](#system-architecture)
-- [Technical Stack](#technical-stack)
-- [Repository Layout (Folder Structure)](#repository-layout-folder-structure)
-- [Execution & Pipeline Workflow](#execution--pipeline-workflow)
-- [API Reference](#api-reference)
-- [Installation & Local Development](#installation--local-development)
-- [Running the System (Dev / Prod)](#running-the-system-dev--prod)
-- [Scalability & Engineering Considerations](#scalability--engineering-considerations)
-- [Challenges & Engineering Decisions](#challenges--engineering-decisions)
-- [Future Improvements](#future-improvements)
-- [Contributing](#contributing)
-- [License](#license)
-- [Author](#author)
-- [Acknowledgements](#acknowledgements)
-
----
-
 ## Project Overview
 
 IOS‑RPMP is a decision-support prototype that simulates surface oil-spill spread on a lightweight 2D grid, evaluates ecological exposure, scores risk, and produces priority-based deployment recommendations for containment resources.
